@@ -1,0 +1,8 @@
+CREATE TABLE employee(
+empno INT(4) PRIMARY KEY,
+empname VARCHAR(20) NOT NULL,
+desig VARCHAR(12) NOT NULL,
+emptype  VARCHAR(1) NOT NULL,
+salary  DOUBLE,
+dob DATE
+);
